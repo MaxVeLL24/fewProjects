@@ -1,0 +1,1564 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline
+}
+
+body, html {
+    height: 100%
+}
+
+img, fieldset, a img {
+    border: none
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    -webkit-appearance: none
+}
+
+input[type="submit"], button {
+    cursor: pointer
+}
+
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+input, button {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+div, input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus {
+    outline: none
+}
+
+ul, ol {
+    list-style-type: none
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    * {
+        -webkit-text-size-adjust: none
+    }
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%
+}
+
+html {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "GothamPro", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #151515
+}
+
+header {
+    background-image: url(../img/Bg_header.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 900px;
+    position: relative
+}
+
+header article {
+    margin-top: 145px;
+    max-width: 792px;
+    margin-left: 0px
+}
+
+header article h2 {
+    font-family: "GothamProBlack";
+    letter-spacing: 2.2px;
+    font-size: 42px;
+    color: #fff
+}
+
+header article h3 {
+    font-family: "GothamProBlack";
+    letter-spacing: 1.1px;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px
+}
+
+header article h4 {
+    font-family: "GothamProMedium";
+    font-size: 20px;
+    color: #fdad00;
+    letter-spacing: 1.5px;
+    margin-bottom: 14px
+}
+
+header article h3 + h4 {
+    font-family: "GothamProMedium";
+    font-size: 24px;
+    color: #fdad00
+}
+
+header section {
+    margin-top: 96px;
+    max-width: 1115px;
+    min-height: 114px;
+    background-color: rgba(205, 203, 202, 0.7);
+    padding: 18px 35px 24px 35px;
+    position: relative
+}
+
+header section:after {
+    content: ".";
+    position: absolute;
+    top: -20px;
+    width: 1100px;
+    height: 114px;
+    background-image: url(../img/section_border.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%
+}
+
+header section h3 {
+    font-family: "GothamProRegular";
+    font-size: 18px;
+    color: #222;
+    line-height: 1.5;
+    letter-spacing: 0.3px
+}
+
+.button-header {
+    margin-top: 100px
+}
+
+.button-header a {
+    text-decoration: none !important;
+    font-family: "GothamProBlack";
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 16px 60px 16px 60px;
+    background-color: #fdad00;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    -ms-box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    -o-box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    -webkit-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+    -moz-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+    -ms-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+    -o-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35)
+}
+
+.button-header a:visited {
+    color: #fff
+}
+
+.button-header a:hover {
+    background-color: #fbb51e;
+    -webkit-box-shadow: 0 4px 0 #c78800;
+    -moz-box-shadow: 0 4px 0 #c78800;
+    -ms-box-shadow: 0 4px 0 #c78800;
+    -o-box-shadow: 0 4px 0 #c78800;
+    box-shadow: 0 4px 0 #c78800;
+    border: 2px solid #c78800
+}
+
+.button-header a:active {
+    -webkit-box-shadow: inset 0 1.5px 0 #aa7400;
+    -moz-box-shadow: inset 0 1.5px 0 #aa7400;
+    -ms-box-shadow: inset 0 1.5px 0 #aa7400;
+    -o-box-shadow: inset 0 1.5px 0 #aa7400;
+    box-shadow: inset 0 1.5px 0 #aa7400;
+    border: 2px solid #dc9701
+}
+
+.button-bottom, .masterClass-button, .reservetion-button {
+    bottom: -40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    -ms-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s
+}
+
+.button-bottom:hover, .masterClass-button:hover, .reservetion-button:hover {
+    background-color: #eee
+}
+
+.button-bottom:active, .masterClass-button:active, .reservetion-button:active {
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+    -ms-box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+    -o-box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.85)
+}
+
+.button-bottom:active i, .masterClass-button:active i, .reservetion-button:active i {
+    margin-top: 17px
+}
+
+.button-bottom i, .masterClass-button i, .reservetion-button i {
+    color: #000;
+    font-size: 54px;
+    text-indent: 25px;
+    margin-top: 15px;
+    font-weight: 100
+}
+
+.master-class {
+    background-image: url(../img/bg_msClass.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 1214px;
+    text-align: center;
+    padding: 0;
+    position: relative
+}
+
+.master-class h2 {
+    font-family: "GothamProBlack";
+    color: #31343a;
+    font-size: 30px;
+    letter-spacing: 1.6px;
+    margin-top: 110px;
+    -webkit-text-shadow: -1px 1px 1px #969799;
+    -moz-text-shadow: -1px 1px 1px #969799;
+    -ms-text-shadow: -1px 1px 1px #969799;
+    -o-text-shadow: -1px 1px 1px #969799;
+    text-shadow: -1px 1px 1px #969799;
+    margin-bottom: 74px
+}
+
+.master-class .col-md-4:nth-of-type(2) span {
+    background-position: -128px 0px
+}
+
+.master-class .col-md-4:nth-of-type(3) span {
+    background-position: -248px -5px
+}
+
+.master-class .col-md-4:nth-of-type(4) span {
+    background-position: -3px -100px
+}
+
+.master-class .col-md-4:nth-of-type(5) span {
+    background-position: -128px -100px
+}
+
+.master-class .col-md-4:nth-of-type(6) span {
+    background-position: -248px -100px
+}
+
+.master-class .col-md-4:nth-of-type(7) {
+    margin-top: -80px
+}
+
+.master-class .col-md-4:nth-of-type(7) span {
+    background-position: -3px -205px
+}
+
+.master-class .col-md-4:nth-of-type(8) {
+    margin-top: -80px
+}
+
+.master-class .col-md-4:nth-of-type(8) span {
+    background-position: -128px -205px
+}
+
+.master-class .col-md-4:nth-of-type(9) {
+    margin-top: -80px
+}
+
+.master-class .col-md-4:nth-of-type(9) span {
+    background-position: -248px -205px
+}
+
+.master-class .num-item {
+    float: left;
+    text-align: center;
+    margin-bottom: 40px;
+    min-height: 212px;
+    width: 350px
+}
+
+.master-class .num-item span {
+    background-image: url(../img/Number_Sprites.png);
+    display: block;
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 100px
+}
+
+.master-class .num-item p {
+    font-family: "GothamProMedium";
+    text-align: left;
+    font-size: 20px;
+    color: #31343a
+}
+
+.master-class .border-section {
+    margin-top: -15px;
+    text-align: center;
+    border: 2px solid #f81;
+    padding: 30px 3px 30px 3px;
+    width: 100%
+}
+
+.master-class .border-section h3 {
+    font-family: "GothamProBlack";
+    font-size: 22px;
+    color: #31343a;
+    letter-spacing: 0.6px
+}
+
+.master-class section {
+    margin-top: 50px
+}
+
+.master-class section h3 {
+    font-family: "GothamProLight";
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 4px
+}
+
+.master-class .fa-icon {
+    margin: 0 auto
+}
+
+.master-class .soc-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    cursor: pointer;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s
+}
+
+.master-class .soc-icon:nth-of-type(1) {
+    background-color: #404aa7
+}
+
+.master-class .soc-icon:nth-of-type(1):hover {
+    background-color: #6270ee
+}
+
+.master-class .soc-icon:nth-of-type(2) {
+    margin-left: 10px;
+    background-color: #556ae4
+}
+
+.master-class .soc-icon:nth-of-type(2):hover {
+    background-color: #92bffc
+}
+
+.master-class .soc-icon:nth-of-type(3) {
+    margin-left: 10px;
+    background-color: #6aa3f2
+}
+
+.master-class .soc-icon:nth-of-type(3):hover {
+    background-color: #88baff
+}
+
+.master-class .soc-icon:nth-of-type(4) {
+    margin-left: 10px;
+    background-color: #ed812b
+}
+
+.master-class .soc-icon:nth-of-type(4):hover {
+    background-color: #ff9947
+}
+
+.master-class .soc-icon:nth-of-type(5) {
+    margin-left: 10px;
+    background-color: #bb451f
+}
+
+.master-class .soc-icon:nth-of-type(5):hover {
+    background-color: #e65e32
+}
+
+.master-class .soc-icon i {
+    color: #fff;
+    font-size: 26px;
+    margin-top: 8px
+}
+
+.masterClass-button i {
+    color: #000;
+    font-size: 54px;
+    text-indent: 5px;
+    margin-top: 15px;
+    font-weight: 100
+}
+
+.trainer {
+    background-color: #eeeded;
+    min-height: 1130px;
+    position: relative
+}
+
+.trainer h2 {
+    padding-top: 105px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "GothamProBlack";
+    color: #31343a;
+    letter-spacing: 1.3px;
+    text-transform: uppercase
+}
+
+.tabs-trainer .tabbed {
+    width: 100%;
+    margin-top: -20px;
+    position: relative
+}
+
+.tabs-trainer .tabbed > input {
+    display: none
+}
+
+.tabs-trainer .tabbed > label {
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 15px;
+    color: #737373;
+    padding: 4px 4px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    z-index: 1
+}
+
+.tabs-trainer .tabbed label + input + label {
+    position: absolute;
+    left: 50%;
+    margin-left: 20px;
+    top: 15px;
+    color: #737373;
+    padding: 4px 4px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    z-index: 1
+}
+
+.tabs-trainer .tabs {
+    clear: both;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -ms-perspective: 1000px;
+    -o-perspective: 1000px;
+    perspective: 1000px
+}
+
+.tabs-trainer .tabs > div {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 1.4em;
+    transform: rotateX(-20deg);
+    transform-origin: top center;
+    transition: opacity 0.3s, transform 1s;
+    opacity: 0
+}
+
+.tabs-trainer .tabs > div section {
+    position: relative;
+    max-width: 650px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 100px;
+    position: relative
+}
+
+.tabs-trainer .tabs > div section:after {
+    content: ".";
+    position: absolute;
+    left: -45px;
+    top: 5px;
+    width: 6px;
+    height: 340px;
+    background-color: #fdad00
+}
+
+.tabs-trainer .tabs > div section h3 {
+    font-size: 18px;
+    color: #222;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    font-weight: 500
+}
+
+.tabs-trainer .tabs > div img {
+    float: right;
+    margin-top: 80px
+}
+
+.tabs-trainer .tabbed > label:hover, .tabs-trainer .tabbed > input:checked + label {
+    background: #333;
+    opacity: 0.9
+}
+
+.tabs-trainer #tab-nav-1:checked ~ .tabs > div:nth-of-type(1), .tabs-trainer #tab-nav-2:checked ~ .tabs > div:nth-of-type(2) {
+    transform: rotateX(0deg);
+    opacity: 1;
+    z-index: 1
+}
+
+.gallery {
+    min-height: 490px;
+    text-align: center
+}
+
+.gallery .wrapper {
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.gallery .wrapper img {
+    margin-top: 164px;
+    cursor: pointer;
+    width: 250px;
+    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.39);
+    -ms-box-shadow: 0 0 16px rgba(0, 0, 0, 0.39);
+    -o-box-shadow: 0 0 16px rgba(0, 0, 0, 0.39);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.39);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    margin-left: 8px
+}
+
+.gallery .wrapper img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 1
+}
+
+.gallery .wrapper p {
+    margin-top: 5px
+}
+
+.reservetion {
+    background-image: url(../img/bg-reservetion.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 589px;
+    text-align: center;
+    position: relative
+}
+
+.reservetion h2 {
+    font-family: "GothamProBlack";
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 60px;
+    -webkit-text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.34);
+    -moz-text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.34);
+    -ms-text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.34);
+    -o-text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.34);
+    text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.34);
+    margin-bottom: 50px
+}
+
+.reservetion input {
+    display: block;
+    margin: 0 auto;
+    width: 290px;
+    margin: 10px auto;
+    padding: 25px
+}
+
+.reservetion p {
+    font-family: "GothamProLight";
+    font-size: 13px;
+    color: #fff
+}
+
+.reservetion-button i {
+    color: #000;
+    font-size: 54px;
+    text-indent: 5px;
+    margin-top: 15px;
+    font-weight: 100
+}
+
+input:focus {
+    -webkit-box-shadow: 0 0 5px 5px rgba(142, 74, 147, 0.6);
+    -moz-box-shadow: 0 0 5px 5px rgba(142, 74, 147, 0.6);
+    -ms-box-shadow: 0 0 5px 5px rgba(142, 74, 147, 0.6);
+    -o-box-shadow: 0 0 5px 5px rgba(142, 74, 147, 0.6);
+    box-shadow: 0 0 5px 5px rgba(142, 74, 147, 0.6)
+}
+
+input[type=text] {
+    font-family: "GothamProLight";
+    font-size: 20px;
+    width: 400px;
+    border-radius: 4px;
+    border: #ccc 1px solid;
+    padding: 12px 10px;
+    text-indent: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid #584661;
+    background-color: rgba(120, 96, 130, 0.85);
+    color: #fff;
+    margin-top: 20px
+}
+
+input[type=submit] {
+    margin-top: 6px;
+    text-decoration: none !important;
+    font-family: "GothamProMedium";
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 8px 60px 8px 60px;
+    width: 400px;
+    background-color: #ffc200;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    -ms-box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    -o-box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.45);
+    -webkit-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+    -moz-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+    -ms-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+    -o-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35)
+}
+
+input[type=submit]:visited {
+    color: #fff
+}
+
+input[type=submit]:hover {
+    background-color: #feca25;
+    -webkit-box-shadow: 0 4px 0 #c78800;
+    -moz-box-shadow: 0 4px 0 #c78800;
+    -ms-box-shadow: 0 4px 0 #c78800;
+    -o-box-shadow: 0 4px 0 #c78800;
+    box-shadow: 0 4px 0 #c78800;
+    border: 2px solid #c78800
+}
+
+input[type=submit]:active {
+    -webkit-box-shadow: inset 0 1.5px 0 #aa7400;
+    -moz-box-shadow: inset 0 1.5px 0 #aa7400;
+    -ms-box-shadow: inset 0 1.5px 0 #aa7400;
+    -o-box-shadow: inset 0 1.5px 0 #aa7400;
+    box-shadow: inset 0 1.5px 0 #aa7400;
+    border: 2px solid #dc9701
+}
+
+.our-clients {
+    min-height: 830px;
+    position: relative;
+    background-color: #fff
+}
+
+.our-clients h2 {
+    font-family: "GothamProBlack";
+    -webkit-text-shadow: -1px 1px 1px #969799;
+    -moz-text-shadow: -1px 1px 1px #969799;
+    -ms-text-shadow: -1px 1px 1px #969799;
+    -o-text-shadow: -1px 1px 1px #969799;
+    text-shadow: -1px 1px 1px #969799;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1.2px;
+    color: #31343a;
+    margin-top: 150px
+}
+
+.tabs-clients .tabbed {
+    width: 100%;
+    margin-top: -10px;
+    position: relative
+}
+
+.tabs-clients .tabbed > input {
+    display: none
+}
+
+.tabs-clients .tabbed > label {
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 8px;
+    color: #737373;
+    padding: 4px 4px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    z-index: 1
+}
+
+.tabs-clients .tabbed label + input + label {
+    position: absolute;
+    left: 50%;
+    margin-left: 25px;
+    top: 8px;
+    color: #737373;
+    padding: 4px 4px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    z-index: 1
+}
+
+.tabs-clients .tabs {
+    clear: both;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -ms-perspective: 1000px;
+    -o-perspective: 1000px;
+    perspective: 1000px;
+    display: block;
+    text-align: center
+}
+
+.tabs-clients .tabs > div {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    transform: rotateX(-20deg);
+    transform-origin: top center;
+    transition: opacity 0.3s, transform 1s;
+    opacity: 0
+}
+
+.tabs-clients .tabs > div .clients-wrapper {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    max-width: 530px;
+    margin-left: 20px;
+    clear: both
+}
+
+.tabs-clients .tabs > div img {
+    float: left;
+    margin-top: 50px
+}
+
+.tabs-clients .tabs > div h3 {
+    font-family: "GothamProItalic";
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 90px;
+    color: #31343a;
+    text-align: left
+}
+
+.tabs-clients .tabs > div p {
+    margin-top: 55px;
+    font-size: 20px;
+    color: #31343a;
+    text-align: left
+}
+
+.tabs-clients .tabbed > label:hover, .tabs-clients .tabbed > input:checked + label {
+    background: #333;
+    background: -webkit-linear-gradient(top, #393939 0%, #3c3c3c 48%, #363636 52%, #333 100%)
+}
+
+.tabs-clients #clinets-nav-1:checked ~ .tabs > div:nth-of-type(1), .tabs-clients #clinets-nav-2:checked ~ .tabs > div:nth-of-type(2) {
+    transform: rotateX(0deg);
+    opacity: 1;
+    z-index: 1
+}
+
+.company {
+    min-height: 200px;
+    background-color: #efeded;
+    position: relative
+}
+
+.company .gallery {
+    min-height: 150px
+}
+
+.company h3 {
+    font-family: "GothamProBold";
+    font-size: 24px;
+    color: #31343a;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+
+.company img {
+    padding-left: 25px
+}
+
+.take-book {
+    background-image: url(../img/take-book.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 877px;
+    text-align: center
+}
+
+.take-book h2 {
+    font-family: "GothamProBold";
+    font-size: 26px;
+    color: #31343a;
+    text-transform: uppercase;
+    margin-top: 75px
+}
+
+.take-book h3 {
+    font-size: 22px;
+    color: #31343a;
+    margin-top: 14px
+}
+
+.take-book section {
+    margin-top: 20px;
+    margin-bottom: 35px
+}
+
+.take-book section img {
+    display: inline-block;
+    margin-left: 90px;
+    margin-right: 70px
+}
+
+.take-book input {
+    display: block;
+    margin: 12px auto
+}
+
+footer {
+    background-image: url(../img/BG_footer.jpg);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block
+}
+
+footer .col-md-3:nth-of-type(2) .wrapper {
+    width: 280px
+}
+
+footer .col-md-3:nth-of-type(2) .wrapper i {
+    float: left
+}
+
+footer .wrapper {
+    display: inline-block;
+    margin-top: 60px
+}
+
+footer .wrapper img {
+    margin-top: -15px
+}
+
+footer .wrapper i {
+    color: #fff;
+    font-size: 50px
+}
+
+footer .wrapper h3 {
+    font-size: 22px;
+    margin-top: 0px;
+    color: #fff
+}
+
+footer .wrapper a {
+    font-size: 24px;
+    text-decoration: none !important;
+    color: #fff
+}
+
+footer .soc-icon {
+    display: inline-block;
+    margin-top: 70px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #000;
+    cursor: pointer;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s
+}
+
+footer .soc-icon:nth-of-type(1) {
+    background-color: #404aa7
+}
+
+footer .soc-icon:nth-of-type(1):hover {
+    background-color: #6270ee
+}
+
+footer .soc-icon:nth-of-type(2) {
+    margin-left: 10px;
+    background-color: #556ae4
+}
+
+footer .soc-icon:nth-of-type(2):hover {
+    background-color: #92bffc
+}
+
+footer .soc-icon:nth-of-type(3) {
+    margin-left: 10px;
+    background-color: #9548b6
+}
+
+footer .soc-icon:nth-of-type(3):hover {
+    background-color: #b95de0
+}
+
+footer .soc-icon:nth-of-type(4) {
+    margin-left: 10px;
+    background-color: #ba451e
+}
+
+footer .soc-icon:nth-of-type(4):hover {
+    background-color: #f45a27
+}
+
+footer .soc-icon i {
+    color: #fff;
+    font-size: 26px;
+    margin-top: 8px
+}
+
+footer section {
+    text-align: center;
+    display: block;
+    margin-top: 50px
+}
+
+footer section h4 {
+    display: inline-block;
+    font-size: 18px;
+    color: #181818;
+    margin-left: 90px;
+    border-bottom: 1px solid #785794;
+    text-align: center
+}
+
+footer section h4:nth-of-type(1) {
+    margin-left: 0
+}
+
+@media only screen and (max-width: 1200px) {
+    header section:after {
+        display: none
+    }
+
+    .master-class h2 {
+        font-size: 26px;
+        margin-top: 60px
+    }
+
+    .master-class .num-item {
+        width: 300px
+    }
+
+    .master-class .num-item p {
+        font-size: 16px
+    }
+
+    .master-class .border-section h3 {
+        font-size: 18px
+    }
+
+    .master-class section {
+        margin-top: 50px
+    }
+
+    .master-class section h3 {
+        font-size: 18px
+    }
+
+    .tabs-trainer .tabs > div section {
+        position: relative;
+        max-width: 60%;
+        float: left;
+        margin-left: 20px
+    }
+
+    .tabs-trainer .tabs > div section:after {
+        left: -20px;
+        width: 4px;
+        height: 300px
+    }
+
+    .tabs-trainer .tabs > div section h3 {
+        font-size: 16px
+    }
+
+    .tabs-trainer .tabs > div img {
+        float: left;
+        margin-top: 80px;
+        max-width: 350px
+    }
+
+    .gallery {
+        min-height: 300px;
+        text-align: center
+    }
+
+    .gallery .wrapper img {
+        margin-top: 100px;
+        width: 180px
+    }
+
+    .gallery .wrapper p {
+        margin-top: 5px
+    }
+
+    .our-clients h2 {
+        text-align: center;
+        font-size: 32px
+    }
+
+    .tabs-clients .tabs > div .clients-wrapper {
+        max-width: 450px
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .master-class .border-section {
+        display: none
+    }
+
+    .master-class section {
+        display: none
+    }
+
+    .tabs-trainer .tabs > div section h3:nth-of-type(7) {
+        display: none
+    }
+
+    .tabs-trainer .tabs > div img {
+        max-width: 240px
+    }
+
+    .gallery {
+        min-height: 300px;
+        padding-top: 30px;
+        padding-bottom: 20px
+    }
+
+    .gallery .wrapper {
+        width: 300px
+    }
+
+    .gallery .wrapper img {
+        margin-top: 20px;
+        width: 280px
+    }
+
+    .tabs-clients .tabs > div .clients-wrapper {
+        max-width: 90%
+    }
+
+    .company {
+        margin-top: 150px
+    }
+
+    .take-book section img {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header article {
+        margin-top: 60px;
+        max-width: 792px;
+        margin-left: 0px;
+        text-align: center
+    }
+
+    header article h2 {
+        font-family: "GothamProBlack";
+        letter-spacing: 2.2px;
+        font-size: 36px;
+        color: #fff
+    }
+
+    header article h3 {
+        font-family: "GothamProBlack";
+        letter-spacing: 1.1px;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 30px
+    }
+
+    header article h4 {
+        font-family: "GothamProMedium";
+        font-size: 20px;
+        color: #fdad00;
+        letter-spacing: 1.5px;
+        margin-bottom: 14px
+    }
+
+    header article h3 + h4 {
+        font-family: "GothamProMedium";
+        font-size: 20px;
+        color: #fdad00
+    }
+
+    .button-header {
+        text-align: center
+    }
+
+    .button-header a {
+        display: inline-block
+    }
+
+    .trainer h2 {
+        padding-top: 75px
+    }
+
+    .tabs-trainer .tabbed > input {
+        display: none
+    }
+
+    .tabs-trainer .tabbed > label {
+        display: none
+    }
+
+    .tabs-trainer .tabbed label + input + label {
+        display: none
+    }
+
+    .tabs-trainer .tabs > div {
+        position: relative;
+        display: block
+    }
+
+    .tabs-trainer .tabs > div section {
+        max-width: 95%;
+        float: none;
+        text-align: left;
+        margin-top: 70px;
+        margin-left: 10px
+    }
+
+    .tabs-trainer .tabs > div section:after {
+        display: none
+    }
+
+    .tabs-trainer .tabs > div section h3 {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 1.2px;
+        border-bottom: 1px dashed #a4a4a4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-indent: 15px
+    }
+
+    .tabs-trainer .tabs > div section h3:nth-of-type(1) {
+        padding-top: 0px
+    }
+
+    .tabs-trainer .tabs > div section h3:nth-of-type(7) {
+        border: none
+    }
+
+    .tabs-trainer .tabs > div img {
+        display: none
+    }
+
+    .tabs-trainer .tabs div + div {
+        display: none
+    }
+
+    .reservetion h2 {
+        font-size: 26px;
+        letter-spacing: 1.5px
+    }
+
+    input[type=submit] {
+        margin-top: 6px;
+        text-decoration: none !important;
+        font-family: "GothamProMedium";
+        font-size: 20px;
+        color: #fff;
+        letter-spacing: 1px;
+        padding: 10px 30px 10px 30px
+    }
+
+    .tabs-clients .tabbed > input {
+        display: none
+    }
+
+    .tabs-clients .tabbed > label {
+        display: none
+    }
+
+    .tabs-clients .tabbed label + input + label {
+        display: none
+    }
+
+    .tabs-clients .tabs > div {
+        position: relative
+    }
+
+    .tabs-clients .tabs > div .clients-wrapper {
+        margin-left: 0;
+        margin-bottom: 40px
+    }
+
+    .tabs-clients .tabs > div + div {
+        display: none
+    }
+
+    .company {
+        margin-top: 0
+    }
+
+    footer section {
+        margin-top: 30px
+    }
+
+    footer section h4 {
+        margin-left: 0;
+        border: none
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .trainer {
+        min-height: 650px
+    }
+
+    .trainer h2 {
+        padding-top: 50px
+    }
+
+    .tabs-trainer .tabs > div {
+        margin-top: -40px
+    }
+
+    .tabs-trainer .tabs > div section h3:nth-of-type(4) {
+        display: none
+    }
+
+    .tabs-trainer .tabs > div section h3:nth-of-type(5) {
+        display: none
+    }
+
+    .tabs-trainer .tabs > div section h3:nth-of-type(6) {
+        border: none
+    }
+
+    .tabs-trainer .tabs > div section h3:nth-of-type(7) {
+        display: none
+    }
+
+    .tabs-trainer .tabs > div img {
+        display: none
+    }
+
+    .company {
+        margin-top: 0
+    }
+
+    .company img {
+        margin-bottom: 20px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header section {
+        margin-top: 20px;
+        padding: 15px
+    }
+
+    .button-header {
+        margin-top: 50px
+    }
+
+    .button-header a {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        padding: 10px 30px 10px 30px
+    }
+
+    .button-bottom, .masterClass-button, .reservetion-button {
+        height: 60px;
+        width: 60px;
+        margin-left: -30px
+    }
+
+    .button-bottom i, .masterClass-button i, .reservetion-button i {
+        font-size: 30px;
+        text-indent: 22px
+    }
+
+    .master-class h2 {
+        font-size: 23px;
+        border-bottom: 1px dashed #eee;
+        padding-bottom: 20px
+    }
+
+    .master-class .border-section {
+        display: none
+    }
+
+    .master-class section {
+        display: none
+    }
+
+    .master-class .num-item {
+        text-align: center;
+        width: 250px;
+        min-height: 20px
+    }
+
+    .master-class .num-item span {
+        display: inline-block
+    }
+
+    .master-class .num-item p {
+        text-align: center
+    }
+
+    .masterClass-button i {
+        font-size: 30px;
+        text-indent: 5px
+    }
+
+    .reservetion-button i {
+        font-size: 30px;
+        text-indent: 5px
+    }
+
+    .reservetion h2 {
+        font-size: 22px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px
+    }
+
+    .reservetion input {
+        width: 290px
+    }
+
+    .our-clients h2 {
+        margin-top: 60px;
+        border-bottom: 1px dashed #000
+    }
+
+    .tabs-clients .tabs > div .clients-wrapper {
+        margin-left: 0;
+        width: 300px;
+        float: none
+    }
+
+    .tabs-clients .tabs > div img {
+        float: none;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8)
+    }
+
+    .tabs-clients .tabs > div h3 {
+        font-size: 17px;
+        margin-left: 0;
+        margin-top: 0px;
+        color: #31343a;
+        text-align: center;
+        border-bottom: 1px dashed #eee;
+        padding-bottom: 20px
+    }
+
+    .tabs-clients .tabs > div p {
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: center
+    }
+
+    .take-book h2 {
+        font-size: 22px;
+        margin-top: 55px
+    }
+
+    .take-book h3 {
+        font-size: 20px
+    }
+
+    .take-book section {
+        margin-top: 20px;
+        margin-bottom: 0
+    }
+
+    .take-book section img {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8)
+    }
+
+    .take-book input {
+        width: 290px
+    }
+
+    .take-book p {
+        padding-bottom: 25px
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .tabs-trainer .tabs > div {
+        margin-left: 10%
+    }
+
+    .tabs-trainer .tabs > div section {
+        max-width: 800px
+    }
+
+    .tabs-trainer .tabs > div img {
+        float: left;
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .tabs-trainer .tabs > div {
+        margin-left: 20%
+    }
+
+    .gallery {
+        min-height: 300px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px
+    }
+
+    .gallery .wrapper {
+        width: 18%;
+        margin-left: 15px
+    }
+
+    .gallery .wrapper img {
+        margin-top: 20px;
+        width: 390px
+    }
+
+    .gallery .wrapper p {
+        margin-top: 5px
+    }
+}

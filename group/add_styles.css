@@ -1,0 +1,118 @@
+footer {
+    height: 120px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 2px solid #82b548;
+    color: #75787b;
+    padding: 30px 20px;
+    margin-top: 0;
+    overflow: hidden;
+    text-shadow: none;
+    z-index: 998;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer p {
+    float: right;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 0;
+    display: block;
+    position: relative;
+    bottom: 50px;
+}
+
+footer a.gorisontal-logo:before {
+    content: "";
+    background: url("img/groupon_merchant_logo_horizontal_rgb.png") 100% 100% no-repeat;
+    width: 350px;
+    bottom: 10px;
+    height: 50px;
+    display: block;
+}
+
+div.help {
+    background-color: #4bc1de;
+    text-align: left;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    font-size: 14px;
+    padding: 8px 10px;
+    padding-bottom: 7px;
+    margin-top: -35px;
+    width: 127px;
+    float: right;
+    position: relative;
+    top: 44px;
+    left: 320px;
+
+}
+:before{
+    color: black;
+}
+.percent-before:before {
+    content: '%';
+}
+
+.dollar:before {
+    content: '$';
+}
+
+div.question h5 p{
+    color: black;
+}
+
+div div.accordion-group div.accordion-heading a {
+    color: #808080;
+}
+
+div div.completed div.accordion-heading a {
+    color: #82b548;
+}
+
+.remover:before{
+    content: 'X';
+    color:#82b548;
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    left: 6px;
+    bottom: -20px;
+    z-index: 02;
+    font-size: 20px;
+}
+div.remover{
+    width: 10px;
+    height: 15px;
+    float: right;
+    position: initial;
+    bottom: 22px;
+    left: 80px;
+}
+div.remover:hover:before{
+    display: block;
+}
+#googleMap{
+    margin-top: 20px;
+    position: relative;
+
+}
+#googleMap input{
+    position: absolute;
+    top: 379px;
+    left: 35%;
+    width: 300px;
+    z-index: 999;
+}
+
+.btn.flat-btn{
+    margin-bottom: 20px;
+}
+*{
+    transition: 1000ms;
+}

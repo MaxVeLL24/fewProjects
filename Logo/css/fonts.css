@@ -1,0 +1,45 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans/2211.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "RobotoBold"; */
+/*@font-face {
+	font-family: "LatoLight";
+	src: url("../fonts/Lato-Light/Lato-Light.ttf")
+	font-style: normal;
+	font-weight: normal;
+}
+*/
+/* font-family: "RobotoBlack"; */
+@font-face {
+	font-family: "LatoBold";
+	src: url("../fonts/Lato-Bold/Lato-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "LatoLight";
+	src: url("../fonts/Lato-Light/Lato-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "LatoBlack";
+	src: url("../fonts/Lato-Black/Lato-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "LatoRegular";
+	src: url("../fonts/Lato-Regular/Lato-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

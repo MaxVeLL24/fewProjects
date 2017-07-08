@@ -1,0 +1,280 @@
+* {
+  transition: 300ms;
+  body {
+    margin: 0 auto;
+    div.main {
+      padding-left: 7px;
+      padding-right: 7px;
+      @media screen and (max-width: 677px) {
+        padding: 0;
+      }
+      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+        padding: 0;
+      }
+      div.sub-main {
+        position: relative;
+        margin: 0 auto;
+        box-shadow: 0px 0px 13px -1px rgba(3, 3, 3, 1);
+        max-width: 1368px;
+        @media screen and (max-width: 667px) {
+          width: 100%;
+          margin: 0;
+        }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+          width: 100%;
+          margin: 0;
+        }
+        nav {
+          font-family: 'Jura', sans-serif;
+          ul {
+            list-style-type: none;
+            display: block;
+            justify-content: space-around;
+            background-color: rgba(234, 234, 234, 0.2);
+            @media screen and (min-width: 480px) {
+              display: flex;
+            }
+            li {
+              text-decoration: none;
+              width: 100%;
+              a {
+                text-decoration: none;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                cursor: pointer;
+                font-size: 1.5em;
+              }
+              a:hover {
+                background-color: rgba(19, 220, 82, 0.5);
+                transform: scale(1.01, 1.01);
+              }
+            }
+          }
+          ul.slider-toggle {
+            margin-bottom: 0;
+            box-shadow: 0px 0px 13px -1px rgba(3, 3, 3, 1);
+          }
+          ul.slide-element {
+          }
+        }
+        div.modal-dialog {
+          @media only screen and (max-device-width: 667px) {
+            width: 90%;
+          }
+          div.modal-content {
+            @media screen and (max-width: 450px) {
+              font-size: 0.8em;
+            }
+            @media screen and (max-width: 375px) {
+              font-size: 0.6em;
+            }
+            @media screen and (max-width: 375px) {
+              font-size: 0.5em;
+            }
+
+            top: 150px;
+            background: url("../img/footer_lodyas.png");
+            //background: linear-gradient(30deg, rgb(215, 171, 110) 15%, rgb(202, 159, 101) 40%, rgb(225, 150, 79), rgb(200, 174, 93) 100%);
+            .modal-header {
+              button.close {
+                color: white;
+                opacity: 0.9;
+
+              }
+              h4.modal-title {
+                color: white;
+                text-align: center;
+              }
+            }
+            input::placeholder {
+              color: black;
+            }
+          }
+        }
+        .logo {
+          text-align: center;
+          color: white;
+          font-size: 3em;
+          background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, rgba(254, 254, 254, 0.1) 100%);
+          padding-bottom: 20px;
+          span.logo-text {
+            font-family: 'Jura', sans-serif;
+            transition: 1000ms;
+            @media screen and (max-width: 400px) {
+              font-size: 0.6em;
+            }
+
+          }
+          a {
+            text-decoration: none;
+            color: white;
+          }
+          div.logo-img img {
+            max-height: 100px;
+          }
+        }
+        .logo:hover span.logo-text {
+          border-bottom: 1px solid rgba(19, 220, 82, 0.5);
+        }
+        div.background {
+          margin-top: 15px;
+          background: url("../img/81_full-min.jpg");
+          background-size: cover;
+          height: 600px;
+          border-bottom: 1px solid transparent;
+          border-radius: 5px;
+          div.shadow-background {
+            background-color: #000000;
+            height: 100%;
+            opacity: 0;
+            div.contact-text {
+              padding-top: 15%;
+              text-align: center;
+              span.contact-text {
+                font-family: 'Jura', sans-serif;
+                color: white;
+                font-size: 2em;
+                text-decoration: none;
+              }
+            }
+          }
+          div.shadow-background:hover {
+            opacity: 0.7;
+          }
+        }
+        div.error {
+          font-family: 'Jura', sans-serif;
+          color: white;
+          font-size: 3em;
+          text-align: center;
+        }
+        footer {
+          padding-top: 25px;
+          div.footer-container {
+            background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, rgba(254, 254, 254, 0.1) 100%);
+            text-align: right;
+            width: 100%;
+            span {
+              font-size: 1em;
+              color: white;
+              text-align: center;
+            }
+            span.text {
+
+              font-family: 'Jura', sans-serif;
+            }
+          }
+        }
+        table {
+          margin: 20px auto 0;
+          color: white;
+          width: 90%;
+          text-align: center;
+          font-family: 'Jura', sans-serif;
+          font-size: 1.5em;
+          padding-bottom: 25px;
+          th {
+            border: 1px solid white;
+            text-align: center;
+            background-color: rgba(220, 41, 28, 0.2);
+          }
+          tr {
+
+            td {
+              border: 1px solid white;
+              a {
+                color: white;
+                display: block;
+              }
+            }
+          }
+          tr:hover {
+            background-color: rgba(19, 220, 82, 0.5);
+          }
+        }
+        table.modal-table {
+          margin: 0;
+          width: 100%;
+        }
+        div.balance-menu, div.operation {
+          margin-top: 15px;
+          color: white;
+          text-align: center;
+          font-size: 1.5em;
+          padding-bottom: 25px;
+          span {
+            text-transform: uppercase;
+            text-decoration: underline;
+          }
+          ul {
+            font-family: 'Jura', sans-serif;
+            li {
+              width: 90%;
+              margin: 0 auto;
+              display: block;
+              @media screen and (min-width: 480px) {
+                display: inline-block;
+                width: 30%;
+              }
+
+              a {
+                display: block;
+                text-decoration: none;
+                color: white;
+                padding: 14px 16px;
+                cursor: pointer;
+                border: 1px solid transparent;
+                border-radius: 5px;
+                background-color: rgba(218, 217, 220, 0.2);
+                box-shadow: 0px 0px 13px -1px rgba(3, 3, 3, 1);
+
+              }
+              a:hover {
+                background-color: rgba(19, 220, 82, 0.5);
+              }
+              a.active {
+                background-color: rgba(19, 220, 82, 0.5);
+              }
+            }
+          }
+          form {
+            select.form-control {
+              color: black;
+            }
+            input {
+              color: black;
+            }
+          }
+        }
+        div.DetailBalance, div.pmmBalance, div.fuelBalance {
+          display: none;
+          padding-bottom: 30px;
+        }
+        div.operation {
+          font-family: 'Jura', sans-serif;
+          form {
+            select {
+              color: black;
+              option {
+                color: black;
+              }
+            }
+            ul {
+              li {
+                width: 60%;
+                a {
+
+                }
+                a:hover {
+                  background-color: rgba(220, 23, 23, 0.5);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
