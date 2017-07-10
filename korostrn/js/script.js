@@ -1,5 +1,20 @@
 $(document).ready(function () {
-    $(".slide-element").css('display', 'none');
+    if ($(window).width() < 670){
+        $(".slider-toggle").css('display', 'block');
+        $(".slide-element").css('display', 'none');
+    }else {
+        $(".slider-toggle").css('display', 'none');
+        $(".slide-element").css('display', 'flex');
+    }
+    $(window).resize(function () {
+        if ($(window).width() < 670) {
+            $(".slider-toggle").css('display', 'block');
+            $(".slide-element").css('display', 'none');
+        } else {
+            $(".slider-toggle").css('display', 'none');
+            $(".slide-element").css('display', 'flex');
+        }
+    });
     $(".slider-toggle li a").click(function () {
         $(".slide-element").slideToggle('slow');
     });

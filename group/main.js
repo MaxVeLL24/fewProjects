@@ -1,6 +1,4 @@
 var $ = jQuery;
-
-// .css({"color": "red", "border": "2px solid red"});
 $(document).ready(function () {
 
     $('.accordion-group').removeClass('completed');

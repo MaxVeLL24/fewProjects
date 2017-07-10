@@ -18,7 +18,6 @@
             background: url("img/footer_lodyas.png");
             background-size: cover;
         }
-
     </style>
 </head>
 <body onload="myFunction()">
@@ -28,6 +27,7 @@
         <?php
         require_once 'header.php';
         ?>
+        <br>
         <?php
         require_once 'work_background.php';
         ?>
